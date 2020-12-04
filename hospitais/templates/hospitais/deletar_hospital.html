@@ -1,0 +1,11 @@
+{% extends 'hospitais/baselista.html' %}
+{% block content %}
+<h2>
+	Deseja excluir ? {{hosp.nome_hospital}}
+</h2>
+<form method="POST">{% csrf_token %}
+	
+	<input type="submit" value="Excluir" class="btn btn-danger">
+</form>
+<a href="{% url 'hospitais' %}" class="btn btn-warning">Voltar</a>
+{% endblock content %}

@@ -1,0 +1,59 @@
+.jumbotron{
+	background-image: url('/img/hospitalarazul.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #007bff; 
+}
+
+.mestre{
+	width:46px ;
+	height:46px ;
+
+}
+.icone a{
+	display: block;
+	width: 36px;
+	height: 36px;
+}
+.icone li{
+	display: inline-block;
+	margin-left: 0.2rem;
+}
+.icone a[href='https://github.com/']{
+        background-image: url('/img/github.png');
+        background-size: 36px 36px;
+}
+.icone a[href='https://www.google.com/']{
+	background-image: url('/img/plus.jpg');
+	background-size: 36px 36px;
+}
+.icone a[href='https://br.linkedin.com/']{
+	background-image: url('/img/linkedin.png');
+	background-size: 36px 36px;
+}
+.icone a[href='https://pt-br.facebook.com/']{
+	background-image: url('/img/facebook.png');
+	background-size: 36px 36px;
+}
+.cor{
+	color: #FFFFFF;
+}
+.avaliado{
+	color: #FFFFFF;
+}
+.card-header{
+	background-image: url('/img/hospitalarazul.jpg');
+	background-size: cover;
+	background-position: center;
+}
+/*
+.nav-link{
+	padding-top: ;
+	padding-left: ;
+	padding-right: ;
+	padding-bottom: ;
+}
+*/

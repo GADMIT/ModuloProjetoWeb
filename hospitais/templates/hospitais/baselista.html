@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="/static/css/bootstrap.css">
+	<link rel="stylesheet" href="/static/css/estilo.css">
+	<title>Site Hospitalar</title>
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-light"><!--Inicio do menu-->
+		<div class="container">
+			<button class="navbar-toggler"data-toggle="collapse"data-target="#navbarSupportedContent">
+				<span class="navbar-toggler-icon">
+					
+				</span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto mr-auto" >
+					<li><a href="#"class="nav-link">Home</a></li>
+					<li><a href="#"class="nav-link">Hospitais</a></li>
+					<li><a href="#"class="nav-link">Tipos de Hospitais</a></li>
+					<li class="dropdown">
+						<a href="#"class="nav-link dropdown-toggle" data-toggle="dropdown">Gerenciar Hospitais</a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#" class="dropdown-item">Inserir Hospitais</a>
+							</li>
+							<li class="dropdown-divider"></li>		
+							<li>
+								<a href="#" class="dropdown-item">Editar Hospitais</a>
+							</li>
+							<li class="dropdown-divider"></li>
+							<li>
+								<a href="#" class="dropdown-item">Excluir Hospitais</a>
+							</li>
+						</ul>
+					</li>
+					<li><a href="#"class="nav-link">Registro</a></li>
+					<li><a href="#"class="nav-link">Login</a></li>
+				</ul>
+			</div><!--Fim Collapse-->	
+		</div><!--Fim Container-->
+	</nav><!--Fim fo menu-->
+	<main>
+		
+		<section class="jumbotron"><!--Inicio do Titulo-->
+			<form method="GET" class="input-group">
+				<input class="form-control" type="search" placeholder="Busque Aqui!" name="search">
+				<button class="btn btn-primary ml-1">Pesquisar</button>
+			</form>
+
+		</section><!--Fim do Titulo-->
+	</main>
+	<section>
+		
+	
+			{% block content %}
+
+		    {% endblock content %}
+
+		   
+             
+		
+		
+
+	</section>
+	
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="/static/js/bootstrap.js"></script>
+</body>
+</html>
